@@ -1,0 +1,397 @@
+2021-08-12T09:49:07+00:00 NOTICE sync_store :: posting data :: Array
+(
+    [store_post] => Array
+        (
+            [id] => 6114ed82f2648
+            [is_syncing] => 
+            [platform] => woocommerce
+            [list_id] => a027a96928
+            [name] => irishmedicos
+            [domain] => https://saima.dbsprojects.ie/wordpress
+            [email_address] => 10576015@mydbs.ie
+            [currency_code] => EUR
+            [money_format] => €
+            [primary_locale] => en_GB
+            [timezone] => Europe/London
+            [phone] => 0899655211
+            [address] => Array
+                (
+                    [address1] => Dublin
+                    [city] => Dublin 01
+                    [province] => Dublin
+                    [postal_code] => D01 E4F8
+                    [country] => IE
+                    [country_code] => IE
+                    [phone] => 0899655211
+                    [company] => irishmedicos
+                )
+
+        )
+
+)
+
+2021-08-12T09:49:09+00:00 NOTICE sync_store :: posting data :: Array
+(
+    [store_post] => Array
+        (
+            [id] => 6114ed82f2648
+            [is_syncing] => 
+            [platform] => woocommerce
+            [list_id] => a027a96928
+            [name] => irishmedicos
+            [domain] => https://saima.dbsprojects.ie/wordpress
+            [email_address] => 10576015@mydbs.ie
+            [currency_code] => EUR
+            [money_format] => €
+            [primary_locale] => en_GB
+            [timezone] => Europe/London
+            [phone] => 0899655211
+            [address] => Array
+                (
+                    [address1] => Dublin
+                    [city] => Dublin 01
+                    [province] => Dublin
+                    [postal_code] => D01 E4F8
+                    [country] => IE
+                    [country_code] => IE
+                    [phone] => 0899655211
+                    [company] => irishmedicos
+                )
+
+        )
+
+)
+
+2021-08-12T09:49:10+00:00 NOTICE sync_store :: posting data :: Array
+(
+    [store_post] => Array
+        (
+            [id] => 6114ed82f2648
+            [is_syncing] => 
+            [platform] => woocommerce
+            [list_id] => a027a96928
+            [name] => irishmedicos
+            [domain] => https://saima.dbsprojects.ie/wordpress
+            [email_address] => 10576015@mydbs.ie
+            [currency_code] => EUR
+            [money_format] => €
+            [primary_locale] => en_GB
+            [timezone] => Europe/London
+            [phone] => 0899655211
+            [address] => Array
+                (
+                    [address1] => Dublin
+                    [city] => Dublin 01
+                    [province] => Dublin
+                    [postal_code] => D01 E4F8
+                    [country] => IE
+                    [country_code] => IE
+                    [phone] => 0899655211
+                    [company] => irishmedicos
+                )
+
+        )
+
+)
+
+2021-08-12T09:49:11+00:00 NOTICE mailchimp-woocommerce-sync.started :: Starting Sync :: Thu, Aug 12, 2021 9:49 AM
+2021-08-12T09:49:12+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Process_Coupons queued :: page 1
+2021-08-12T09:49:12+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Process_Coupons queued :: page 2
+2021-08-12T09:49:35+00:00 NOTICE sync.full_sync_manager.queue :: Starting PRODUCTS queueing.
+2021-08-12T09:49:35+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Process_Products queued :: page 1
+2021-08-12T09:49:35+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Process_Products queued :: page 2
+2021-08-12T09:49:35+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_SingleCoupon queued :: obj_id 78
+2021-08-12T09:49:37+00:00 NOTICE coupon_sync.completed :: Done with the coupon queueing.
+2021-08-12T09:49:37+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product queued :: obj_id 53
+2021-08-12T09:49:37+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product queued :: obj_id 56
+2021-08-12T09:49:39+00:00 NOTICE product_sync.completed :: Done with the product queuing
+2021-08-12T09:49:40+00:00 NOTICE promo_code_submit.success :: #78 :: code: 10off
+2021-08-12T09:49:40+00:00 NOTICE product_submit.success :: addStoreProduct :: #53
+2021-08-12T09:49:41+00:00 NOTICE product_submit.success :: addStoreProduct :: #56
+2021-08-12T09:50:15+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Process_Orders queued :: page 1
+2021-08-12T09:50:17+00:00 NOTICE order_sync.completed :: Done with the order queueing.
+2021-08-12T09:50:40+00:00 NOTICE sync.completed :: Finished Sync :: Thu, Aug 12, 2021 9:50 AM (total time: 00:01:29)
+2021-08-12T09:54:52+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 90
+2021-08-12T09:54:59+00:00 NOTICE debug :: Order ID 90 was pending and is now processing :: Array
+(
+    [new_order] => 1
+    [tracking] => Array
+        (
+            [campaign_id] => 
+            [landing_site] => https://saima.dbsprojects.ie/wordpress/wordpress/wp-admin/admin-ajax.php
+        )
+
+)
+
+2021-08-12T09:56:40+00:00 NOTICE order.member.updated :: Updated demo@dbs.projects.ie subscriber status to subscribed and language to en
+2021-08-12T09:56:40+00:00 NOTICE order_submit.success :: addStoreOrder :: #90 :: email: demo@dbs.projects.ie :: landing site https://saima.dbsprojects.ie/wordpress/wordpress/wp-admin/admin-ajax.php
+2021-08-12T10:10:38+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_User_Submit queued :: obj_id 1
+2021-08-12T10:10:40+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 91
+2021-08-12T10:10:45+00:00 NOTICE debug :: Order ID 91 was pending and is now processing :: Array
+(
+    [new_order] => 1
+    [tracking] => Array
+        (
+            [campaign_id] => 
+            [landing_site] => https://saima.dbsprojects.ie/wordpress/wordpress/index.php/checkout/order-received/90/?key=wc_order_mH7hazDLyUbKT
+        )
+
+)
+
+2021-08-12T10:12:01+00:00 NOTICE member.sync :: Subscribed Member 10576015@mydbs.ie :: Array
+(
+    [status_if_new] => 1
+    [merge_fields] => Array
+        (
+            [FNAME] => Saima
+            [LNAME] => Anjum
+        )
+
+)
+
+2021-08-12T10:13:31+00:00 NOTICE order.member.updated :: Updated saima.anjum.ie@gmail.com subscriber status to subscribed and language to en
+2021-08-12T10:13:31+00:00 NOTICE order_submit.success :: addStoreOrder :: #91 :: email: saima.anjum.ie@gmail.com :: landing site https://saima.dbsprojects.ie/wordpress/wordpress/index.php/checkout/order-received/90/?key=wc_order_mH7hazDLyUbKT
+2021-08-12T10:29:21+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_User_Submit queued :: obj_id 1
+2021-08-12T10:29:43+00:00 NOTICE member.sync :: Updated Member 10576015@mydbs.ie ( merge fields only ) :: Array
+(
+    [merge_fields] => Array
+        (
+            [FNAME] => Saima
+            [LNAME] => Anjum
+        )
+
+)
+
+2021-08-12T10:31:38+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_User_Submit queued :: obj_id 1
+2021-08-12T10:31:38+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 92
+2021-08-12T10:31:42+00:00 NOTICE debug :: Order ID 92 was pending and is now processing :: Array
+(
+    [new_order] => 1
+    [tracking] => Array
+        (
+            [campaign_id] => 
+            [landing_site] => https://saima.dbsprojects.ie/wordpress/wordpress/index.php/checkout/order-received/91/?key=wc_order_ZEMsxxjHzfO2N
+        )
+
+)
+
+2021-08-12T10:32:17+00:00 NOTICE member.sync :: Updated Member 10576015@mydbs.ie ( merge fields only ) :: Array
+(
+    [merge_fields] => Array
+        (
+            [FNAME] => Saima
+            [LNAME] => Anjum
+        )
+
+)
+
+2021-08-12T10:33:37+00:00 NOTICE order.member.updated :: Updated saima.anjum.ie@gmail.com subscriber status to subscribed and language to en
+2021-08-12T10:33:37+00:00 NOTICE order_submit.success :: addStoreOrder :: #92 :: email: saima.anjum.ie@gmail.com :: landing site https://saima.dbsprojects.ie/wordpress/wordpress/index.php/checkout/order-received/91/?key=wc_order_ZEMsxxjHzfO2N
+2021-08-12T10:35:04+00:00 NOTICE sync_store :: posting data :: Array
+(
+    [store_post] => Array
+        (
+            [id] => 6114ed82f2648
+            [is_syncing] => 
+            [platform] => woocommerce
+            [list_id] => a027a96928
+            [name] => irishmedicos
+            [domain] => https://saima.dbsprojects.ie/wordpress
+            [email_address] => 10576015@mydbs.ie
+            [currency_code] => EUR
+            [money_format] => €
+            [primary_locale] => en_GB
+            [timezone] => Europe/London
+            [phone] => 0899655211
+            [address] => Array
+                (
+                    [address1] => Dublin
+                    [city] => Dublin 01
+                    [province] => Dublin
+                    [postal_code] => D01 E4F8
+                    [country] => IE
+                    [country_code] => IE
+                    [phone] => 0899655211
+                    [company] => irishmedicos
+                )
+
+        )
+
+)
+
+2021-08-12T10:35:06+00:00 NOTICE mailchimp-woocommerce-sync.started :: Starting Sync :: Thu, Aug 12, 2021 10:35 AM
+2021-08-12T10:35:06+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Process_Coupons queued :: page 1
+2021-08-12T10:35:06+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Process_Coupons queued :: page 2
+2021-08-12T10:35:07+00:00 NOTICE sync.full_sync_manager.queue :: Starting PRODUCTS queueing.
+2021-08-12T10:35:07+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Process_Products queued :: page 1
+2021-08-12T10:35:07+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Process_Products queued :: page 2
+2021-08-12T10:35:07+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_SingleCoupon queued :: obj_id 78
+2021-08-12T10:35:09+00:00 NOTICE coupon_sync.completed :: Done with the coupon queueing.
+2021-08-12T10:35:09+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product queued :: obj_id 53
+2021-08-12T10:35:09+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product queued :: obj_id 56
+2021-08-12T10:35:11+00:00 NOTICE product_sync.completed :: Done with the product queuing
+2021-08-12T10:35:11+00:00 NOTICE promo_code_submit.success :: #78 :: code: 10off
+2021-08-12T10:35:12+00:00 NOTICE product_submit.success :: updateStoreProduct :: #53
+2021-08-12T10:35:12+00:00 NOTICE product_submit.success :: updateStoreProduct :: #56
+2021-08-12T10:35:17+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Process_Orders queued :: page 1
+2021-08-12T10:35:19+00:00 NOTICE order_sync.completed :: Done with the order queueing.
+2021-08-12T10:35:34+00:00 NOTICE sync.completed :: Finished Sync :: Thu, Aug 12, 2021 10:35 AM (total time: 00:00:29)
+2021-08-12T13:51:35+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 101
+2021-08-12T13:52:27+00:00 NOTICE product_submit.success :: addStoreProduct :: #101
+2021-08-12T13:53:48+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 102
+2021-08-12T13:54:37+00:00 NOTICE product_submit.success :: addStoreProduct :: #102
+2021-08-12T13:55:13+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_User_Submit queued :: obj_id 1
+2021-08-12T13:55:13+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 104
+2021-08-12T13:55:20+00:00 NOTICE debug :: Order ID 104 was pending and is now processing :: Array
+(
+    [new_order] => 1
+    [tracking] => Array
+        (
+            [campaign_id] => 
+            [landing_site] => https://saima.dbsprojects.ie/wordpress/wordpress/index.php/checkout/order-received/92/?key=wc_order_tmIPt6GYgnjZz
+        )
+
+)
+
+2021-08-12T13:55:37+00:00 NOTICE member.sync :: Updated Member 10576015@mydbs.ie ( merge fields only ) :: Array
+(
+    [merge_fields] => Array
+        (
+            [FNAME] => Saima
+            [LNAME] => Anjum
+        )
+
+)
+
+2021-08-12T13:56:18+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 101
+2021-08-12T13:56:41+00:00 NOTICE product_submit.success :: updateStoreProduct :: #101
+2021-08-12T13:56:52+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_User_Submit queued :: obj_id 1
+2021-08-12T13:56:52+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 107
+2021-08-12T13:56:58+00:00 NOTICE debug :: Order ID 107 was pending and is now processing :: Array
+(
+    [new_order] => 1
+    [tracking] => Array
+        (
+            [campaign_id] => 
+            [landing_site] => https://saima.dbsprojects.ie/wordpress/wordpress/index.php/checkout/order-received/104/?key=wc_order_zATvyEbbWyw45
+        )
+
+)
+
+2021-08-12T13:58:39+00:00 NOTICE order.member.updated :: Updated demo@dbs.projects.ie subscriber status to subscribed and language to en
+2021-08-12T13:58:39+00:00 NOTICE order_submit.success :: addStoreOrder :: #104 :: email: demo@dbs.projects.ie :: landing site https://saima.dbsprojects.ie/wordpress/wordpress/index.php/checkout/order-received/92/?key=wc_order_tmIPt6GYgnjZz
+2021-08-12T13:58:39+00:00 NOTICE member.sync :: Updated Member 10576015@mydbs.ie ( merge fields only ) :: Array
+(
+    [merge_fields] => Array
+        (
+            [FNAME] => Saima
+            [LNAME] => Anjum
+        )
+
+)
+
+2021-08-12T14:00:40+00:00 NOTICE order.member.updated :: Updated demo@dbs.projects.ie subscriber status to subscribed and language to en
+2021-08-12T14:00:40+00:00 NOTICE order_submit.success :: addStoreOrder :: #107 :: email: demo@dbs.projects.ie :: landing site https://saima.dbsprojects.ie/wordpress/wordpress/index.php/checkout/order-received/104/?key=wc_order_zATvyEbbWyw45
+2021-08-12T14:01:31+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_User_Submit queued :: obj_id 1
+2021-08-12T14:01:31+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 109
+2021-08-12T14:01:37+00:00 NOTICE debug :: Order ID 109 was pending and is now processing :: Array
+(
+    [new_order] => 1
+    [tracking] => Array
+        (
+            [campaign_id] => 
+            [landing_site] => https://saima.dbsprojects.ie/wordpress/wordpress/index.php/checkout/order-received/107/?key=wc_order_tPQitnbVuACfW
+        )
+
+)
+
+2021-08-12T14:01:39+00:00 NOTICE member.sync :: Updated Member 10576015@mydbs.ie ( merge fields only ) :: Array
+(
+    [merge_fields] => Array
+        (
+            [FNAME] => Saima
+            [LNAME] => Anjum
+        )
+
+)
+
+2021-08-12T14:03:38+00:00 NOTICE order.member.updated :: Updated demo@dbs.projects.ie subscriber status to subscribed and language to en
+2021-08-12T14:03:38+00:00 NOTICE order_submit.success :: addStoreOrder :: #109 :: email: demo@dbs.projects.ie :: landing site https://saima.dbsprojects.ie/wordpress/wordpress/index.php/checkout/order-received/107/?key=wc_order_tPQitnbVuACfW
+2021-08-12T14:04:22+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_User_Submit queued :: obj_id 1
+2021-08-12T14:04:22+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 111
+2021-08-12T14:04:52+00:00 NOTICE member.sync :: Updated Member 10576015@mydbs.ie ( merge fields only ) :: Array
+(
+    [merge_fields] => Array
+        (
+            [FNAME] => Saima
+            [LNAME] => Anjum
+        )
+
+)
+
+2021-08-12T14:06:40+00:00 NOTICE order_sumbit :: #111 has a financial status of pending and was skipped.
+2021-08-12T14:08:53+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_User_Submit queued :: obj_id 1
+2021-08-12T14:08:53+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 113
+2021-08-12T14:08:57+00:00 NOTICE debug :: Order ID 113 was pending and is now on-hold :: Array
+(
+    [new_order] => 
+    [tracking] => 
+)
+
+2021-08-12T14:09:07+00:00 NOTICE debug :: Order ID 113 was on-hold and is now processing :: Array
+(
+    [new_order] => 
+    [tracking] => 
+)
+
+2021-08-12T14:09:11+00:00 NOTICE member.sync :: Updated Member 10576015@mydbs.ie ( merge fields only ) :: Array
+(
+    [merge_fields] => Array
+        (
+            [FNAME] => Saima
+            [LNAME] => Anjum
+        )
+
+)
+
+2021-08-12T14:09:30+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 102
+2021-08-12T14:10:09+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_User_Submit queued :: obj_id 1
+2021-08-12T14:10:09+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 115
+2021-08-12T14:10:20+00:00 NOTICE product_submit.success :: updateStoreProduct :: #102
+2021-08-12T14:10:21+00:00 NOTICE member.sync :: Updated Member 10576015@mydbs.ie ( merge fields only ) :: Array
+(
+    [merge_fields] => Array
+        (
+            [FNAME] => Saima
+            [LNAME] => Anjum
+        )
+
+)
+
+2021-08-12T14:14:48+00:00 NOTICE order.member.updated :: Updated demo@dbs.projects.ie subscriber status to subscribed and language to en
+2021-08-12T14:14:48+00:00 NOTICE order_submit.success :: addStoreOrder :: #113 :: email: demo@dbs.projects.ie :: landing site https://saima.dbsprojects.ie/wordpress/wordpress/wp-admin/admin-ajax.php
+2021-08-12T14:14:49+00:00 NOTICE order_sumbit :: #115 has a financial status of pending and was skipped.
+2021-08-12T14:42:21+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 56
+2021-08-12T14:42:40+00:00 NOTICE product_submit.success :: updateStoreProduct :: #56
+2021-08-12T14:47:10+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 56
+2021-08-12T14:47:29+00:00 NOTICE product_submit.success :: updateStoreProduct :: #56
+2021-08-12T14:56:44+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 56
+2021-08-12T14:57:22+00:00 NOTICE product_submit.success :: updateStoreProduct :: #56
+2021-08-12T14:58:22+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 56
+2021-08-12T14:58:28+00:00 NOTICE product_submit.success :: updateStoreProduct :: #56
+2021-08-12T15:00:31+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 56
+2021-08-12T15:00:39+00:00 NOTICE product_submit.success :: updateStoreProduct :: #56
+2021-08-12T15:02:52+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 56
+2021-08-12T15:03:10+00:00 NOTICE product_submit.success :: updateStoreProduct :: #56
+2021-08-12T15:03:19+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 56
+2021-08-12T15:03:38+00:00 NOTICE product_submit.success :: updateStoreProduct :: #56
+2021-08-12T15:12:31+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 53
+2021-08-12T15:12:36+00:00 NOTICE product_submit.success :: updateStoreProduct :: #53
+2021-08-12T15:14:12+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 53
+2021-08-12T15:14:58+00:00 NOTICE product_submit.success :: updateStoreProduct :: #53
+2021-08-12T15:15:27+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 53
+2021-08-12T15:15:37+00:00 NOTICE product_submit.success :: updateStoreProduct :: #53
+2021-08-12T15:26:15+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 102
+2021-08-12T15:26:39+00:00 NOTICE product_submit.success :: updateStoreProduct :: #102
+2021-08-12T15:27:27+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 101
+2021-08-12T15:27:45+00:00 NOTICE product_submit.success :: updateStoreProduct :: #101

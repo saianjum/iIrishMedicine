@@ -1,0 +1,54 @@
+2021-08-13T08:25:39+00:00 CRITICAL Uncaught TypeError: Return value of WCPay\MultiCurrency\MultiCurrency::get_default_currency() must be an instance of WCPay\MultiCurrency\Currency, null returned in /var/www/html/wordpress/wp-content/plugins/woocommerce-payments/includes/multi-currency/MultiCurrency.php:511
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/woocommerce-payments/includes/multi-currency/Analytics.php(232): WCPay\MultiCurrency\MultiCurrency->get_default_currency()
+#1 /var/www/html/wordpress/wp-content/plugins/woocommerce-payments/includes/multi-currency/Analytics.php(108): WCPay\MultiCurrency\Analytics->should_convert_order_stats()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(303): WCPay\MultiCurrency\Analytics->update_order_stats_data()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(189): WP_Hook->apply_filters()
+#4 /var/www/html/wordpress/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Orders/Stats/DataStore.php(510): apply_filters()
+#5 /var/www/html/wordpress/wp-content/plugins/ in /var/www/html/wordpress/wp-content/plugins/woocommerce-payments/includes/multi-currency/MultiCurrency.php on line 511
+
+2021-08-13T10:03:36+00:00 CRITICAL Uncaught TypeError: Return value of WCPay\MultiCurrency\MultiCurrency::get_default_currency() must be an instance of WCPay\MultiCurrency\Currency, null returned in /var/www/html/wordpress/wp-content/plugins/woocommerce-payments/includes/multi-currency/MultiCurrency.php:511
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/woocommerce-payments/includes/multi-currency/Analytics.php(232): WCPay\MultiCurrency\MultiCurrency->get_default_currency()
+#1 /var/www/html/wordpress/wp-content/plugins/woocommerce-payments/includes/multi-currency/Analytics.php(108): WCPay\MultiCurrency\Analytics->should_convert_order_stats()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(303): WCPay\MultiCurrency\Analytics->update_order_stats_data()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(189): WP_Hook->apply_filters()
+#4 /var/www/html/wordpress/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Orders/Stats/DataStore.php(510): apply_filters()
+#5 /var/www/html/wordpress/wp-content/plugins/ in /var/www/html/wordpress/wp-content/plugins/woocommerce-payments/includes/multi-currency/MultiCurrency.php on line 511
+
+2021-08-13T10:19:16+00:00 CRITICAL Uncaught TypeError: Return value of WCPay\MultiCurrency\MultiCurrency::get_default_currency() must be an instance of WCPay\MultiCurrency\Currency, null returned in /var/www/html/wordpress/wp-content/plugins/woocommerce-payments/includes/multi-currency/MultiCurrency.php:511
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/woocommerce-payments/includes/multi-currency/Analytics.php(232): WCPay\MultiCurrency\MultiCurrency->get_default_currency()
+#1 /var/www/html/wordpress/wp-content/plugins/woocommerce-payments/includes/multi-currency/Analytics.php(108): WCPay\MultiCurrency\Analytics->should_convert_order_stats()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(303): WCPay\MultiCurrency\Analytics->update_order_stats_data()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(189): WP_Hook->apply_filters()
+#4 /var/www/html/wordpress/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Orders/Stats/DataStore.php(510): apply_filters()
+#5 /var/www/html/wordpress/wp-content/plugins/ in /var/www/html/wordpress/wp-content/plugins/woocommerce-payments/includes/multi-currency/MultiCurrency.php on line 511
+
+2021-08-13T10:23:47+00:00 CRITICAL Uncaught TypeError: Return value of WCPay\MultiCurrency\MultiCurrency::get_default_currency() must be an instance of WCPay\MultiCurrency\Currency, null returned in /var/www/html/wordpress/wp-content/plugins/woocommerce-payments/includes/multi-currency/MultiCurrency.php:511
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/woocommerce-payments/includes/multi-currency/Analytics.php(232): WCPay\MultiCurrency\MultiCurrency->get_default_currency()
+#1 /var/www/html/wordpress/wp-content/plugins/woocommerce-payments/includes/multi-currency/Analytics.php(108): WCPay\MultiCurrency\Analytics->should_convert_order_stats()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(303): WCPay\MultiCurrency\Analytics->update_order_stats_data()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(189): WP_Hook->apply_filters()
+#4 /var/www/html/wordpress/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Orders/Stats/DataStore.php(510): apply_filters()
+#5 /var/www/html/wordpress/wp-content/plugins/ in /var/www/html/wordpress/wp-content/plugins/woocommerce-payments/includes/multi-currency/MultiCurrency.php on line 511
+
+2021-08-13T10:24:28+00:00 CRITICAL Uncaught TypeError: Return value of WCPay\MultiCurrency\MultiCurrency::get_default_currency() must be an instance of WCPay\MultiCurrency\Currency, null returned in /var/www/html/wordpress/wp-content/plugins/woocommerce-payments/includes/multi-currency/MultiCurrency.php:511
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/woocommerce-payments/includes/multi-currency/Analytics.php(232): WCPay\MultiCurrency\MultiCurrency->get_default_currency()
+#1 /var/www/html/wordpress/wp-content/plugins/woocommerce-payments/includes/multi-currency/Analytics.php(108): WCPay\MultiCurrency\Analytics->should_convert_order_stats()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(303): WCPay\MultiCurrency\Analytics->update_order_stats_data()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(189): WP_Hook->apply_filters()
+#4 /var/www/html/wordpress/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Orders/Stats/DataStore.php(510): apply_filters()
+#5 /var/www/html/wordpress/wp-content/plugins/ in /var/www/html/wordpress/wp-content/plugins/woocommerce-payments/includes/multi-currency/MultiCurrency.php on line 511
+
+2021-08-13T10:25:45+00:00 CRITICAL Uncaught TypeError: Return value of WCPay\MultiCurrency\MultiCurrency::get_default_currency() must be an instance of WCPay\MultiCurrency\Currency, null returned in /var/www/html/wordpress/wp-content/plugins/woocommerce-payments/includes/multi-currency/MultiCurrency.php:511
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/woocommerce-payments/includes/multi-currency/Analytics.php(232): WCPay\MultiCurrency\MultiCurrency->get_default_currency()
+#1 /var/www/html/wordpress/wp-content/plugins/woocommerce-payments/includes/multi-currency/Analytics.php(108): WCPay\MultiCurrency\Analytics->should_convert_order_stats()
+#2 /var/www/html/wordpress/wp-includes/class-wp-hook.php(303): WCPay\MultiCurrency\Analytics->update_order_stats_data()
+#3 /var/www/html/wordpress/wp-includes/plugin.php(189): WP_Hook->apply_filters()
+#4 /var/www/html/wordpress/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Orders/Stats/DataStore.php(510): apply_filters()
+#5 /var/www/html/wordpress/wp-content/plugins/ in /var/www/html/wordpress/wp-content/plugins/woocommerce-payments/includes/multi-currency/MultiCurrency.php on line 511
+
